@@ -1,0 +1,257 @@
+{
+	"id": "d7ab9aaa-667a-4a63-9e98-02a44d08ef3b",
+	"name": "COURSES",
+	"timestamp": "2022-10-16T21:52:02.293Z",
+	"collection_id": "23645793-015bdbf1-953a-4b20-832b-3cccdc519135",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 19,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d46eaa82-a713-441f-acff-7f39d92b1279",
+			"name": "CREATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 483,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches title": true,
+				"Body matches categoryid": true,
+				"Body matches isPremium": true,
+				"Body matches location": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches categoryid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches isPremium": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				483
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches title": true,
+					"Body matches categoryid": true,
+					"Body matches isPremium": true,
+					"Body matches location": true
+				}
+			]
+		},
+		{
+			"id": "31fe6f6f-49c9-4c25-af52-026605ea5273",
+			"name": "LIST COURSES",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches categoryid": true,
+				"Body matches location": true,
+				"Body matches isPremium": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches categoryid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches isPremium": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches categoryid": true,
+					"Body matches location": true,
+					"Body matches isPremium": true
+				}
+			]
+		},
+		{
+			"id": "1eef6a39-abac-43a9-b7ba-65fdc0ed2d7b",
+			"name": "GET COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1867",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches title": true,
+				"Body matches isPremium": true,
+				"Body matches location": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches isPremium": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				190
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches title": true,
+					"Body matches isPremium": true,
+					"Body matches location": true
+				}
+			]
+		},
+		{
+			"id": "7f40d1ae-d414-4e44-b97b-22194d86bdf6",
+			"name": "UPDATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1867",
+			"time": 154,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches categoryId": true,
+				"Body matches isPremium": true,
+				"Body matches location": true,
+				"Body matches course title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches categoryId": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches isPremium": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				154
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches categoryId": true,
+					"Body matches isPremium": true,
+					"Body matches location": true,
+					"Body matches course title": true
+				}
+			]
+		},
+		{
+			"id": "d954097e-b54e-4e6c-84ea-03f9ad3bdbc4",
+			"name": "DELETE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1867",
+			"time": 180,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				180
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1212,
+	"collection": {
+		"requests": [
+			{
+				"id": "d46eaa82-a713-441f-acff-7f39d92b1279",
+				"method": "POST"
+			},
+			{
+				"id": "31fe6f6f-49c9-4c25-af52-026605ea5273",
+				"method": "GET"
+			},
+			{
+				"id": "1eef6a39-abac-43a9-b7ba-65fdc0ed2d7b",
+				"method": "GET"
+			},
+			{
+				"id": "7f40d1ae-d414-4e44-b97b-22194d86bdf6",
+				"method": "PUT"
+			},
+			{
+				"id": "d954097e-b54e-4e6c-84ea-03f9ad3bdbc4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
